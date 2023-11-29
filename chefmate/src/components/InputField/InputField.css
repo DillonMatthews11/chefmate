@@ -1,0 +1,94 @@
+.input-field {
+    height: 81px;
+    position: relative;
+    width: 315px;
+  }
+  
+  .input-field .overlap-group {
+    border: 1.5px solid;
+    border-radius: 10px;
+    height: 55px;
+    left: 0;
+    position: absolute;
+    top: 26px;
+    width: 315px;
+  }
+  
+  .input-field .line {
+    height: 17px;
+    left: 18px;
+    object-fit: cover;
+    position: absolute;
+    top: 18px;
+    width: 1px;
+  }
+  
+  .input-field .placeholder {
+    font-family: var(--text-style-smaller-text-regular-font-family);
+    font-size: var(--text-style-smaller-text-regular-font-size);
+    font-style: var(--text-style-smaller-text-regular-font-style);
+    font-weight: var(--text-style-smaller-text-regular-font-weight);
+    letter-spacing: var(--text-style-smaller-text-regular-letter-spacing);
+    line-height: var(--text-style-smaller-text-regular-line-height);
+    position: absolute;
+    top: 16px;
+  }
+  
+  .input-field .label {
+    color: var(--colour-styleslabel-colour);
+    font-family: var(--text-style-small-text-regular-font-family);
+    font-size: var(--text-style-small-text-regular-font-size);
+    font-style: var(--text-style-small-text-regular-font-style);
+    font-weight: var(--text-style-small-text-regular-font-weight);
+    left: 0;
+    letter-spacing: var(--text-style-small-text-regular-letter-spacing);
+    line-height: var(--text-style-small-text-regular-line-height);
+    position: absolute;
+    top: -1px;
+  }
+  
+  .input-field .focus {
+    border-color: var(--colour-stylesprimary-colourprimary-80);
+  }
+  
+  .input-field .disable {
+    background-color: var(--colour-stylesneutral-colourgray-4);
+    border-color: var(--colour-stylesneutral-colourgray-4);
+  }
+  
+  .input-field .filled-focus {
+    border-color: var(--colour-stylesprimary-colourprimary-80);
+  }
+  
+  .input-field .default {
+    border-color: var(--colour-stylesneutral-colourgray-4);
+  }
+  
+  .input-field .fiiled {
+    border-color: var(--colour-stylesneutral-colourgray-4);
+  }
+  
+  .input-field .overlap-group.focus .placeholder {
+    color: var(--colour-stylesneutral-colourgray-4);
+    left: 18px;
+  }
+  
+  .input-field .overlap-group.disable .placeholder {
+    color: var(--colour-stylesneutral-colourgray-2);
+    left: 18px;
+  }
+  
+  .input-field .overlap-group.filled-focus .placeholder {
+    color: var(--colour-stylesneutral-colourblack);
+    left: 22px;
+  }
+  
+  .input-field .overlap-group.default .placeholder {
+    color: var(--colour-stylesneutral-colourgray-4);
+    left: 18px;
+  }
+  
+  .input-field .overlap-group.fiiled .placeholder {
+    color: var(--colour-stylesneutral-colourblack);
+    left: 18px;
+  }

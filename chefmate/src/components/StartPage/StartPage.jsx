@@ -15,7 +15,7 @@ const StartPage = () => {
   <div style={{ textAlign: 'center', marginTop: '100px' }}>
     <h1>Welcome to the Getting Started Page</h1>
     <p>Click the button below to get started:</p>
-    <button style={buttonStyle}>Get Started</button>
+    <a href="/login" style={buttonStyle}>Get Started</a>
   </div>
   );
 }

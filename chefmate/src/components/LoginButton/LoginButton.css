@@ -1,8 +1,56 @@
-.login-button {
-    background-color: red;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-  }
+.big-button {
+  all: unset;
+  align-items: center;
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: inline-flex;
+  gap: 11px;
+  justify-content: center;
+  padding: 18px 85px;
+  position: relative;
+}
+
+.big-button .label {
+  color: var(--white-0);
+  font-family: var(--text-style-normal-text-bold-font-family);
+  font-size: var(--text-style-normal-text-bold-font-size);
+  font-style: var(--text-style-normal-text-bold-font-style);
+  font-weight: var(--text-style-normal-text-bold-font-weight);
+  letter-spacing: var(--text-style-normal-text-bold-letter-spacing);
+  line-height: var(--text-style-normal-text-bold-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 114px;
+}
+
+.big-button .img {
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.big-button .icon-general-arrow-right {
+  height: 20px !important;
+  width: 20px !important;
+}
+
+.big-button .icon-general-arrow-instance {
+  height: 12px !important;
+  left: 3px !important;
+  top: 4px !important;
+  width: 13px !important;
+}
+
+.big-button.hover {
+  background-color: var(--colour-stylesprimary-colourprimary-100);
+  opacity: 0.8;
+}
+
+.big-button.default {
+  background-color: #951212;
+}
+
+.big-button.disable {
+  background-color: var(--colour-stylesneutral-colourgray-4);
+}
