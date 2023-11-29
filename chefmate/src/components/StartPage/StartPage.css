@@ -1,0 +1,92 @@
+.main-homepage {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .main-homepage .overlap-group-wrapper {
+    background-color: var(--colour-stylesneutral-colourwhite);
+    height: 812px;
+    width: 377px;
+  }
+  
+  .main-homepage .overlap-group {
+    
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 812px;
+    position: relative;
+  }
+  
+  .main-homepage .overlap {
+    height: 266px;
+    left: 6px;
+    position: absolute;
+    top: 242px;
+    width: 328px;
+  }
+  
+  .main-homepage .text {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px;
+    left: 34px;
+    position: absolute;
+    top: 78px;
+  }
+  
+  .main-homepage .header-title {
+    color: #f7f9fb;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 60px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .main-homepage .caption {
+    color: var(--colour-stylesneutral-colourwhite);
+    font-family: var(--text-style-normal-text-regular-font-family);
+    font-size: var(--text-style-normal-text-regular-font-size);
+    font-style: var(--text-style-normal-text-regular-font-style);
+    font-weight: var(--text-style-normal-text-regular-font-weight);
+    letter-spacing: var(--text-style-normal-text-regular-letter-spacing);
+    line-height: var(--text-style-normal-text-regular-line-height);
+    position: relative;
+    text-align: center;
+    width: 275px;
+  }
+  
+  .main-homepage .frame {
+    height: 100px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100px;
+  }
+  
+  .main-homepage .medium-button-instance {
+    background-color: #951212 !important;
+    display: flex !important;
+    left: 70px !important;
+    position: absolute !important;
+    top: 559px !important;
+    width: 234px !important;
+  }
+  
+  .main-homepage .design-component-instance-node {
+    color: var(--colour-stylesneutral-colourwhite) !important;
+    margin-left: -11px !important;
+    width: fit-content !important;
+  }
+  
+  .main-homepage .medium-button-2 {
+    margin-right: -11px !important;
+  }
