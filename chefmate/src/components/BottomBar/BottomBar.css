@@ -1,0 +1,8 @@
+.bottombar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.bottom-item{
+    margin: auto;
+}
